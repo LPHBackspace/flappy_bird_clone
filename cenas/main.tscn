@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3rxo5b8a7qx7"]
+
+[ext_resource type="PackedScene" uid="uid://40x20tg1kqj1" path="res://cenas/personagem.tscn" id="2_uea85"]
+[ext_resource type="PackedScene" uid="uid://clhmd6b5h4yuc" path="res://cenas/parallax_background.tscn" id="7_g17x3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_poi6b"]
+size = Vector2(651, 36)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bqfr4"]
+size = Vector2(640, 57)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="teto" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="teto"]
+position = Vector2(319, -33)
+shape = SubResource("RectangleShape2D_poi6b")
+
+[node name="chao" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chao"]
+position = Vector2(320, 333.5)
+shape = SubResource("RectangleShape2D_bqfr4")
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("7_g17x3")]
+position = Vector2(190, 127)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_uea85")]
+position = Vector2(106, 185)

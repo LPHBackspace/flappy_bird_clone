@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://40x20tg1kqj1"]
+
+[ext_resource type="Script" path="res://scripts/personagem.gd" id="1_jy5p8"]
+[ext_resource type="Texture2D" uid="uid://b8txfti0um0od" path="res://sprites/cenario/pelliper.png" id="1_wb0el"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_jy5p8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_wb0el")
+flip_h = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(11, -11, 22, -21, 25, -21, 26, -16, 25, -13, 23, -8, 25, -7, 26, -2, 25, 5, 23, 9, 19, 14, 14, 16, 10, 17, 8, 19, 5, 21, 2, 20, 2, 17, -1, 17, -2, 20, -5, 20, -7, 19, -9, 16, -7, 14, -10, 6, -12, 3, -17, 0, -24, -7, -26, -14, -22, -20, -16, -21, -11, -7, -8, -3, -4, -3, 0, -8, -3, -14, 3, -18, 8, -18, 13, -15)
