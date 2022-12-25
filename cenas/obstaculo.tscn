@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1phf4baht06e"]
+
+[ext_resource type="Script" path="res://scripts/obstaculo.gd" id="1_ifduh"]
+[ext_resource type="Texture2D" uid="uid://bq8384ltbv31a" path="res://sprites/obstaculo.png" id="1_vot4i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_08wg6"]
+size = Vector2(80, 320)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yg1uv"]
+size = Vector2(80, 320)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_ifduh")
+
+[node name="Sprite_cima" type="Sprite2D" parent="."]
+position = Vector2(700, -140)
+texture = ExtResource("1_vot4i")
+
+[node name="Sprite_baixo" type="Sprite2D" parent="."]
+position = Vector2(700, 300)
+texture = ExtResource("1_vot4i")
+
+[node name="cosisao_topo" type="CollisionShape2D" parent="."]
+position = Vector2(700, -140)
+shape = SubResource("RectangleShape2D_08wg6")
+
+[node name="colisao_baixa" type="CollisionShape2D" parent="."]
+position = Vector2(700, 300)
+shape = SubResource("RectangleShape2D_yg1uv")
