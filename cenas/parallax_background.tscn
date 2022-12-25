@@ -19,8 +19,9 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	background.x -= 2
-	set_scroll_offset(background)
+	if Global.vida:
+		background.x -= 2
+		set_scroll_offset(background)
 "
 
 [node name="ParallaxBackground" type="Node2D"]

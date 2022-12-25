@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://b3rxo5b8a7qx7"]
+[gd_scene load_steps=7 format=3 uid="uid://q2nbr1a5cc6y"]
 
-[ext_resource type="Script" path="res://cenas/main.gd" id="1_qdmd2"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_b6jjc"]
 [ext_resource type="PackedScene" uid="uid://dgnhhf6mwr7m6" path="res://cenas/personagem.tscn" id="2_uea85"]
+[ext_resource type="FontFile" uid="uid://0cmg7c1wd1dx" path="res://font_style/Symtext.ttf" id="4_dduc0"]
 [ext_resource type="PackedScene" uid="uid://clhmd6b5h4yuc" path="res://cenas/parallax_background.tscn" id="7_g17x3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_poi6b"]
@@ -11,7 +12,7 @@ size = Vector2(651, 36)
 size = Vector2(640, 57)
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_qdmd2")
+script = ExtResource("1_b6jjc")
 
 [node name="teto" type="StaticBody2D" parent="."]
 
@@ -29,4 +30,31 @@ shape = SubResource("RectangleShape2D_bqfr4")
 position = Vector2(190, 127)
 
 [node name="personagem" parent="." instance=ExtResource("2_uea85")]
-position = Vector2(106, 185)
+position = Vector2(40, 184)
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+z_index = 2
+offset_left = 85.0
+offset_top = 41.0
+offset_right = 125.0
+offset_bottom = 68.0
+theme_override_fonts/font = ExtResource("4_dduc0")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+z_index = 2
+offset_left = 61.0
+offset_top = 11.0
+offset_right = 146.0
+offset_bottom = 42.0
+theme_override_fonts/font = ExtResource("4_dduc0")
+text = "reiniciar"
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button" to="fundo" method="_on_button_pressed"]
+[connection signal="pressed" from="Button" to="personagem" method="_on_button_pressed"]
