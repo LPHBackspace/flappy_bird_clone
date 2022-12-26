@@ -20,8 +20,12 @@ func _on_timer_timeout():
 	
 func _process(_delta):
 	$Label.text = str(Global.pontos)
-	if Global.pontos > 10:
-		Global.fase += 1
+	if Global.pontos < 11:
+		Global.fase = 0
+	if Global.pontos == 11:
+		Global.fase = 1
+	if Global.pontos == 21:
+		Global.fase = 2
 
 
 func _on_button_pressed():

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cixpetts3mxkr"
-path="res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"
+uid="uid://d1761w5xmx0lc"
+path="res://.godot/imported/parallax-00_deserto.jpg-6be6b716e4fee6979afbd686dbf07cd2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/coletavel.png"
-dest_files=["res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"]
+source_file="res://sprites/cenario_deserto/parallax-00_deserto.jpg"
+dest_files=["res://.godot/imported/parallax-00_deserto.jpg-6be6b716e4fee6979afbd686dbf07cd2.ctex"]
 
 [params]
 
@@ -25,7 +25,7 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false

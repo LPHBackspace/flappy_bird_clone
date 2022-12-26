@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cixpetts3mxkr"
-path="res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"
+uid="uid://c5clkv1efsupv"
+path="res://.godot/imported/coin.png-54d5e156d7891d9603a51f76f85b4fd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/coletavel.png"
-dest_files=["res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"]
+source_file="res://sprites/coin.png"
+dest_files=["res://.godot/imported/coin.png-54d5e156d7891d9603a51f76f85b4fd9.ctex"]
 
 [params]
 

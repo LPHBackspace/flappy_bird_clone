@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cixpetts3mxkr"
-path="res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"
+uid="uid://cdj4r6ymtq1fu"
+path="res://.godot/imported/obstaculo_deserto.png-54b898668cd8f679a14792fad761ed08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/coletavel.png"
-dest_files=["res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"]
+source_file="res://sprites/obstaculo_deserto.png"
+dest_files=["res://.godot/imported/obstaculo_deserto.png-54b898668cd8f679a14792fad761ed08.ctex"]
 
 [params]
 

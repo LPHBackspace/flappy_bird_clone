@@ -10,7 +10,9 @@ func _ready():
 func limpar_bg():
 	$fase1.hide()
 	$fase2.hide()
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+	$fase3.hide()
+	
+
 func _process(delta):
 	if Global.fase == 0:
 		limpar_bg()
@@ -18,4 +20,6 @@ func _process(delta):
 	if Global.fase == 1:
 		limpar_bg()
 		$fase2.show()
-	
+	if Global.fase == 2:
+		limpar_bg()
+		$fase3.show()

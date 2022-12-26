@@ -11,4 +11,5 @@ func _on_body_entered(body):
 		self.hide()
 		ponto = 0
 
-
+func _process(delta):
+	$AnimationPlayer.play("coin")

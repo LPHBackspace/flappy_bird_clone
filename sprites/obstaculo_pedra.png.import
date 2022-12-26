@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cixpetts3mxkr"
-path="res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"
+uid="uid://bjwl3x4ihlh8l"
+path="res://.godot/imported/obstaculo_pedra.png-a967a87f1ab31e901c60069b4dc8b0ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/coletavel.png"
-dest_files=["res://.godot/imported/coletavel.png-6aaa192e4ad3b4f65bcdde4d9a5b455e.ctex"]
+source_file="res://sprites/obstaculo_pedra.png"
+dest_files=["res://.godot/imported/obstaculo_pedra.png-a967a87f1ab31e901c60069b4dc8b0ed.ctex"]
 
 [params]
 
