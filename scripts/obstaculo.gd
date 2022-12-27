@@ -15,7 +15,6 @@ func _process(delta):
 	if Global.vida:
 		self.position.x -= 2
 		
-		
 	if Global.fase == 0:
 		$Sprite_cima.set_texture(load("res://sprites/obstaculo_pedra.png"))
 		$Sprite_baixo.set_texture(load("res://sprites/obstaculo_pedra.png"))

@@ -25,7 +25,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if Global.vida:
 		background.x -= 2
 		set_scroll_offset(background)
@@ -35,7 +35,6 @@ func _process(delta):
 script = ExtResource("1_vu76q")
 
 [node name="fase1" type="ParallaxBackground" parent="."]
-visible = false
 script = SubResource("GDScript_c1ryv")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="fase1"]
@@ -137,6 +136,7 @@ position = Vector2(1389, 315)
 texture = ExtResource("7_qamqg")
 
 [node name="fase3" type="ParallaxBackground" parent="."]
+visible = false
 script = SubResource("GDScript_c1ryv")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="fase3"]

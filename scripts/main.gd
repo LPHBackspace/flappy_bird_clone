@@ -10,7 +10,7 @@ func criar_item():
 	var obstaculo = MyNode.instantiate()
 	add_child(obstaculo)
 	$Timer.start(delay)
-	
+
 func _ready():
 	criar_item()
 
