@@ -5,7 +5,7 @@ var ponto = 1
 
 
 func _on_body_entered(body):
-	if ponto:
+	if ponto and Global.vida:
 		$AudioStreamPlayer2D.play()
 		Global.pontos += 1
 		self.hide()

@@ -15,30 +15,32 @@ func _ready():
 
 func _physics_process(delta): 
 
-	if is_on_ceiling() and Global.vida or is_on_wall() and Global.vida or is_on_floor() and Global.vida:
-		Global.vida = 0
-		vida = 0
-		$morrer.play()
-		$bg_musica.stop()
-		
-	if not is_on_floor():
-		velocity.y += gravity * delta
+	if Global.vida:
+		if is_on_ceiling() or is_on_wall() or is_on_floor():
+			Global.vida = 0
+			vida = 0
+			$morrer.play()
+			$bg_musica.stop()
+			
+		if not is_on_floor():
+			velocity.y += gravity * delta
 
-	# Handle Jump.
-	if Input.is_action_just_pressed("ui_accept") and Global.vida:
-		velocity.y = JUMP_VELOCITY
-		$voar.play()
+		# Handle Jump.
+		if Input.is_action_just_pressed("ui_accept"):
+			velocity.y = JUMP_VELOCITY
+			$voar.play()
 
-	if velocity.y < 0:
-		if self.rotation > -1.1:
-			self.rotation -= 7 * delta
+		if velocity.y < 90:
+			if self.rotation > -.8:
+				self.rotation -= 10 * delta
 
+	else:
+		velocity.y = 300
 
 	if velocity.y > 90:
 		if self.rotation < 1:
 			self.rotation += 4 * delta
 
-
-	print(velocity.y)
+	
 	move_and_slide()
 
