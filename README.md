@@ -2,9 +2,8 @@
 
 <img align="center" height="500px" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
 
-<div align="center">
-<h1>Versão do Godot</h1>
-<img align="center" alt="leo-godot" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg">
+<div>
+<h1>Versão do Godot</h1> <img alt="leo-godot" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg">
 </div>
 
 - 4.0 beta_8
