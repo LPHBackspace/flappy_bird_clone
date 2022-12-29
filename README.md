@@ -29,4 +29,4 @@
 - Baixe o arquivo como um zip
 - Após extrair o arquivo em um local de sua preferência, abra o Godot 4.0 e procure o arquivo "Project.godot", assim como demonstrado na imagem abaixo:
 
-<img height="500" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/godoto.PNG">
+<img src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/godoto.PNG">
