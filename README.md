@@ -1,5 +1,5 @@
 <h1> flappy_pelliper 
-<img alt="leo-bird" height="40" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/sprites/flappy_bird.png">
+<img alt="leo-bird" height="40" margin-top="5" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/sprites/flappy_bird.png">
 </h1>
 
 <img align="center" height="500px" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
