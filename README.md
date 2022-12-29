@@ -2,7 +2,7 @@
 <img alt="leo-bird" height="40" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/sprites/flappy_bird.png">
 </h1>
 
-<img align="center" height="500px" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
+<img align="center" height="500" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
 
 <div>
 <h1>Versão do Godot <img alt="leo-godot" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg"></h1> 
@@ -20,3 +20,13 @@
 - Contagem de pontos
 - Mudanças de background
 - Tela de Game Over 
+
+
+<h1>Acessar o projeto</h1>
+
+<p>Para abrir o projeto em sua máquina, siga os seguintes passos</p>
+
+- Baixe o arquivo como um zip
+- Após extrair o arquivo em um local de sua preferência, abra o Godot 4.0 e procure o arquivo "Project.godot", assim como demonstrado na imagem abaixo:
+
+<img height="500" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/godoto.PNG">
