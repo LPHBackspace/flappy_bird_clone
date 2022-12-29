@@ -2,7 +2,8 @@
 <img alt="leo-bird" height="40" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/sprites/flappy_bird.png">
 </h1>
 
-<img align="center" height="500" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
+<img height="500" src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/flappy_leo1.png"></img>
+<br>
 <a href="https://youtu.be/ZRAgJsmeNho">Vídeo demonstrativo</a>
 
 
