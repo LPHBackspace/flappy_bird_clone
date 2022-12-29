@@ -15,7 +15,7 @@
 
 
 
-<h1>Features implementadas</h1>
+<h1>Features implementadas ⭐</h1>
 
 - Mecânica de Voo do personagem
 - Efeito de Parallax no Background
@@ -25,7 +25,7 @@
 - Tela de Game Over 
 
 
-<h1>Acessar o projeto</h1>
+<h1>Acessar o projeto 🧾</h1>
 
 <p>Para abrir o projeto em sua máquina, siga os seguintes passos</p>
 
@@ -35,7 +35,7 @@
 <img src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/godott.PNG">
 
 
-<h1>Fontes das imagens</h1>
+<h1>Fontes das imagens 🖼️</h1>
 
 - <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FiimbwJh_flappy-bird-bird-png-transparent-png%2F&psig=AOvVaw2DHMET3zfAw3O3cvT5r9mS&ust=1672428751968000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICTm9_In_wCFQAAAAAdAAAAABAP">Flappy Bird</a>
 - <a href="https://github.com/bitbrain/godot-tutorials/tree/main/parallax-scrolling/godot-project/parallax">Fundo Paralax</a>
