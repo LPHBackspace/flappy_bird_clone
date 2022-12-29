@@ -5,7 +5,7 @@
 <h1>Features implementadas</h1>
 
 - Mecânica de Voo do personagem
-- Paralax Background
+- Efeito de Parallax no Background
 - Instanciamento de Obstáculos / Moedas
 - Contagem de pontos
 - Mudanças de background
