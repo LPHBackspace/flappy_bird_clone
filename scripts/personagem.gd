@@ -12,6 +12,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
 	$bg_musica.play()
+	
+	self.modulate = Color(Global.red, Global.green, Global.blue, 1)
 
 func _physics_process(delta): 
 
