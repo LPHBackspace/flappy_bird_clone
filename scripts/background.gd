@@ -14,12 +14,13 @@ func limpar_bg():
 	
 
 func _process(delta):
-	if Global.fase == 0:
-		limpar_bg()
-		$fase1.show()
-	if Global.fase == 1:
-		limpar_bg()
-		$fase2.show()
-	if Global.fase == 2:
-		limpar_bg()
-		$fase3.show()
+	if Global.vida:
+		if Global.fase == 0:
+			limpar_bg()
+			$fase1.show()
+		if Global.fase == 1:
+			limpar_bg()
+			$fase2.show()
+		if Global.fase == 2:
+			limpar_bg()
+			$fase3.show()

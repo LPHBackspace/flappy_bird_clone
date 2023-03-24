@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b1s1ey7v5jgbd" path="res://sprites/barra_de_espaco.png" id="1_khhqp"]
 [ext_resource type="FontFile" uid="uid://0cmg7c1wd1dx" path="res://font_style/Symtext.ttf" id="2_3jn1q"]
 [ext_resource type="PackedScene" uid="uid://clhmd6b5h4yuc" path="res://cenas/parallax_background.tscn" id="3_h6fh7"]
-[ext_resource type="Texture2D" uid="uid://c878s8m8eyd0l" path="res://sprites/flappy_bird.png" id="5_y5q4i"]
+[ext_resource type="Texture2D" uid="uid://dqugvh7qga2p0" path="res://sprites/flappy_bird (1).png" id="5_nujac"]
 
 [node name="tutorial" type="Node2D"]
 script = ExtResource("1_6ojly")
@@ -29,4 +29,5 @@ position = Vector2(35, 226)
 [node name="FlappyBird" type="Sprite2D" parent="."]
 position = Vector2(46, 182)
 scale = Vector2(0.09, 0.09)
-texture = ExtResource("5_y5q4i")
+texture = ExtResource("5_nujac")
+vframes = 3

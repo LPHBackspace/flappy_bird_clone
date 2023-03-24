@@ -21,11 +21,11 @@ func _on_timer_timeout():
 	
 func _process(delta):
 	$Label.text = str(Global.pontos)
-	if Global.pontos < 10:
+	if Global.pontos < 30:
 		Global.fase = 0
-	if Global.pontos > 10 and Global.pontos < 20:
+	if Global.pontos > 30 and Global.pontos < 60:
 		Global.fase = 1
-	if Global.pontos > 20:
+	if Global.pontos > 60:
 		Global.fase = 2
 
 	# ativar menu ao morrer

@@ -1,41 +1,49 @@
 2a60927148abd1d33b818b535e306557
-::res://::1679675115
+::res://::1679692333
 icon.svg::CompressedTexture2D::2083842785301941236::1677898271::1677898947::1::::<><>::
 README.md::TextFile::-1::1677898271::0::1::::<><>::
-::res://cenas/::1679675104
-CharacterBody2D.gd::GDScript::-1::1679059704::0::1::::<>CharacterBody2D<>::
-coletavel.tscn::PackedScene::7767817315273287733::1677898271::0::1::::<><>::res://scripts/coletavel.gd<>uid://c5clkv1efsupv<>uid://cpq1u13o2oxta
-main.tscn::PackedScene::1179551737370040366::1679526878::0::1::::<><>::res://scripts/main.gd<>uid://dgnhhf6mwr7m6<>uid://0cmg7c1wd1dx<>uid://3lxha6a6knk5<>uid://clhmd6b5h4yuc
+::res://cenas/::1679692146
+bg_music.tscn::PackedScene::7900530506185655704::1679692146::0::1::::<><>::res://scripts/bg_music.gd
+coletavel.tscn::PackedScene::7767817315273287733::1679692146::0::1::::<><>::res://scripts/coletavel.gd<>uid://c5clkv1efsupv<>uid://cpq1u13o2oxta
+main.tscn::PackedScene::1179551737370040366::1679692146::0::1::::<><>::res://scripts/main.gd<>uid://dgnhhf6mwr7m6<>uid://0cmg7c1wd1dx<>uid://3lxha6a6knk5<>uid://dktct3ek6jjo7<>uid://clhmd6b5h4yuc
 menu.tscn::PackedScene::1989404816481298982::1677898271::0::1::::<><>::res://scripts/menu.gd<>uid://0cmg7c1wd1dx<>uid://d2u7102fjtnfc
-obstaculo.tscn::PackedScene::9015573124630021198::1679526878::0::1::::<><>::res://scripts/obstaculo.gd<>uid://bq8384ltbv31a<>uid://diw120vqbcteb
-parallax_background.tscn::PackedScene::5560104884120133218::1677898271::0::1::::<><>::uid://e2y171tghh8d<>res://scripts/background.gd<>uid://cqchuerrwbrcg<>uid://p1871r4s4fss<>uid://ctjx6u7aatucx<>uid://r0rlyshpyr7j<>uid://dxqpwn7ss1vqx<>uid://cfj8po8fdjpo1<>uid://d1761w5xmx0lc<>uid://dfh0qny38u1mk<>uid://xfmmhukecm0r<>uid://b5b5uhkhm6ogc
-personagem.tscn::PackedScene::7607669854297991775::1679526878::0::1::::<><>::res://scripts/personagem.gd<>uid://c878s8m8eyd0l<>uid://cptxbgxsgegs7<>uid://bj0ux8lxjovu0<>uid://emewa11kgbdg
-tutorial.tscn::PackedScene::7586705615169562680::1679526878::0::1::::<><>::res://scripts/tutorial.gd<>uid://b1s1ey7v5jgbd<>uid://0cmg7c1wd1dx<>uid://clhmd6b5h4yuc<>uid://c878s8m8eyd0l
+obstaculo.tscn::PackedScene::9015573124630021198::1679692146::0::1::::<><>::res://scripts/obstaculo.gd<>uid://bq8384ltbv31a<>uid://diw120vqbcteb
+parallax_background.tscn::PackedScene::5560104884120133218::1679692146::0::1::::<><>::uid://e2y171tghh8d<>res://scripts/background.gd<>uid://cqchuerrwbrcg<>uid://p1871r4s4fss<>uid://ctjx6u7aatucx<>uid://r0rlyshpyr7j<>uid://dxqpwn7ss1vqx<>uid://cfj8po8fdjpo1<>uid://d1761w5xmx0lc<>uid://dfh0qny38u1mk<>uid://xfmmhukecm0r<>uid://b5b5uhkhm6ogc
+personagem.tscn::PackedScene::7607669854297991775::1679692146::0::1::::<><>::res://scripts/personagem.gd<>uid://dqugvh7qga2p0<>uid://cptxbgxsgegs7<>uid://bj0ux8lxjovu0
+tutorial.tscn::PackedScene::7586705615169562680::1679692145::0::1::::<><>::res://scripts/tutorial.gd<>uid://b1s1ey7v5jgbd<>uid://0cmg7c1wd1dx<>uid://clhmd6b5h4yuc<>uid://dqugvh7qga2p0
 ::res://font_style/::1677898947
 Symtext.ttf::FontFile::1759590850183238045::1677898271::1677898947::1::::<><>::
 ::res://imagens_readme/::1677898947
 flappy_leo1.png::CompressedTexture2D::7720627844958652997::1677898271::1677898947::1::::<><>::
 godott.PNG::CompressedTexture2D::5596551196749881664::1677898271::1677898947::1::::<><>::
-::res://scripts/::1679066685
+::res://scripts/::1679692145
 animate_background.gd::GDScript::-1::1677898271::0::1::::<>Node2D<>::
-background.gd::GDScript::-1::1677898271::0::1::::<>Node2D<>::
+background.gd::GDScript::-1::1679692145::0::1::::<>Node2D<>::
+bg_music.gd::GDScript::-1::1679691319::0::1::::<>AudioStreamPlayer<>::
 coletavel.gd::GDScript::-1::1677898271::0::1::::<>Area2D<>::
 Global.gd::GDScript::-1::1677898429::0::1::::<>Node<>::
-main.gd::GDScript::-1::1679066685::0::1::::<>Node2D<>::
+main.gd::GDScript::-1::1679691319::0::1::::<>Node2D<>::
 menu.gd::GDScript::-1::1677898271::0::1::::<>Control<>::
-obstaculo.gd::GDScript::-1::1677898271::0::1::::<>StaticBody2D<>::
-personagem.gd::GDScript::-1::1677898456::0::1::::<>CharacterBody2D<>::
+obstaculo.gd::GDScript::-1::1679692012::0::1::::<>StaticBody2D<>::
+personagem.gd::GDScript::-1::1679690820::0::1::::<>CharacterBody2D<>::
 pontos.gd::GDScript::-1::1677898271::0::1::::<>Node2D<>::
 tutorial.gd::GDScript::-1::1677898413::0::1::::<>Node2D<>::
-::res://sons/::1677898947
+::res://sons/::1679689986
 coletavel.mp3::AudioStreamMP3::5860319833246052162::1677898271::1677898947::1::::<><>::
 morte.mp3::AudioStreamMP3::3070986884723049141::1677898271::1677898947::1::::<><>::
 Pokemon opening.mp3::AudioStreamMP3::305810104397656704::1677898271::1677898947::1::::<><>::
 voar.mp3::AudioStreamMP3::5866295827407980060::1677898271::1677898947::1::::<><>::
-::res://sprites/::1679675104
+::res://sons/soundtrack/::1679689994
+04 - Overworld Day.mp3::AudioStreamMP3::3337697082493094492::1679689994::1679689994::1::::<><>::
+05 - Alternate Day.mp3::AudioStreamMP3::2770207462473774292::1679689994::1679689994::1::::<><>::
+12 - Desert.mp3::AudioStreamMP3::6806358903642123176::1679689994::1679689994::1::::<><>::
+14 - Snow.mp3::AudioStreamMP3::127883824675238143::1679689994::1679689994::1::::<><>::
+24 - Jungle.mp3::AudioStreamMP3::6393043316696013289::1679689994::1679689994::1::::<><>::
+37 - Plantera.mp3::AudioStreamMP3::8566004413023389386::1679689994::1679689994::1::::<><>::
+::res://sprites/::1679684735
 barra_de_espaco.png::CompressedTexture2D::4250076513831306117::1677898271::1677898947::1::::<><>::
 coin.png::CompressedTexture2D::6883322320239195587::1677898271::1677898947::1::::<><>::
-flappy_bird.png::CompressedTexture2D::7157170853936634761::1677898271::1677898947::1::::<><>::
+flappy_bird (1).png::CompressedTexture2D::8323973325829827299::1679684732::1679684735::1::::<><>::
 menu_laranja.png::CompressedTexture2D::9097639113830866152::1677898271::1677898947::1::::<><>::
 obstaculo.png::CompressedTexture2D::3579327195817385148::1677898271::1677898947::1::::<><>::
 obstaculo_deserto.png::CompressedTexture2D::5003780115243882966::1677898271::1677898947::1::::<><>::

@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://q2nbr1a5cc6y"]
+[gd_scene load_steps=9 format=3 uid="uid://q2nbr1a5cc6y"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_b6jjc"]
 [ext_resource type="PackedScene" uid="uid://dgnhhf6mwr7m6" path="res://cenas/personagem.tscn" id="2_uea85"]
 [ext_resource type="FontFile" uid="uid://0cmg7c1wd1dx" path="res://font_style/Symtext.ttf" id="4_dduc0"]
 [ext_resource type="PackedScene" uid="uid://3lxha6a6knk5" path="res://cenas/menu.tscn" id="5_exfd0"]
+[ext_resource type="PackedScene" uid="uid://dktct3ek6jjo7" path="res://cenas/bg_music.tscn" id="6_xuelo"]
 [ext_resource type="PackedScene" uid="uid://clhmd6b5h4yuc" path="res://cenas/parallax_background.tscn" id="7_g17x3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_poi6b"]
@@ -14,6 +15,9 @@ size = Vector2(640, 57)
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_b6jjc")
+
+[node name="bg_music" parent="." instance=ExtResource("6_xuelo")]
+autoplay = true
 
 [node name="teto" type="StaticBody2D" parent="."]
 

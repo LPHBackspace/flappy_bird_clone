@@ -16,12 +16,12 @@ func _process(delta):
 		self.position.x -= 2
 
 		
-	if Global.fase == 0:
-		$Sprite_cima.set_texture(load("res://sprites/obstaculo_pedra.png"))
-		$Sprite_baixo.set_texture(load("res://sprites/obstaculo_pedra.png"))
-	if Global.fase == 1:
-		$Sprite_cima.set_texture(load("res://sprites/obstaculo_neve.png"))
-		$Sprite_baixo.set_texture(load("res://sprites/obstaculo_neve.png"))
-	if Global.fase == 2:
-		$Sprite_cima.set_texture(load("res://sprites/obstaculo_deserto.png"))
-		$Sprite_baixo.set_texture(load("res://sprites/obstaculo_deserto.png"))
+		if Global.fase == 0:
+			$Sprite_cima.set_texture(load("res://sprites/obstaculo_pedra.png"))
+			$Sprite_baixo.set_texture(load("res://sprites/obstaculo_pedra.png"))
+		if Global.fase == 1:
+			$Sprite_cima.set_texture(load("res://sprites/obstaculo_neve.png"))
+			$Sprite_baixo.set_texture(load("res://sprites/obstaculo_neve.png"))
+		if Global.fase == 2:
+			$Sprite_cima.set_texture(load("res://sprites/obstaculo_deserto.png"))
+			$Sprite_baixo.set_texture(load("res://sprites/obstaculo_deserto.png"))

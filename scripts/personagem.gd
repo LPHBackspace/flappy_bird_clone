@@ -11,7 +11,6 @@ var vida = 1
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
-	$bg_musica.play()
 	
 	self.modulate = Color(Global.red, Global.green, Global.blue, 1)
 
@@ -22,7 +21,6 @@ func _physics_process(delta):
 			Global.vida = 0
 			vida = 0
 			$morrer.play()
-			$bg_musica.stop()
 			
 		if not is_on_floor():
 			velocity.y += gravity * delta
@@ -30,6 +28,7 @@ func _physics_process(delta):
 		# Handle Jump.
 		if Input.is_action_just_pressed("ui_accept"):
 			velocity.y = JUMP_VELOCITY
+			$AnimationPlayer.play("bird")
 			$voar.play()
 
 		if velocity.y < 90:
