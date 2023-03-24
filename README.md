@@ -11,7 +11,7 @@
 <h1>Versão do Godot <img alt="leo-godot" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original.svg"></h1> 
 </div>
 
-- 4.0 beta_8
+- 4.0
 
 
 
