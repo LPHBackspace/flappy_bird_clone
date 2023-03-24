@@ -23,6 +23,9 @@
 - Contagem de pontos
 - Mudanças de background
 - Tela de Game Over 
+- Animação do personagem
+- Mudanças de cor do personagem de forma aleatória
+- Trocas de música de fundo
 
 
 <h1>Acessar o projeto 🧾</h1>
