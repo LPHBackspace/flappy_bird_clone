@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://dgnhhf6mwr7m6"]
 
 [ext_resource type="Script" path="res://scripts/personagem.gd" id="1_jy5p8"]
-[ext_resource type="Texture2D" uid="uid://c878s8m8eyd0l" path="res://sprites/flappy_bird.png" id="2_8qpje"]
+[ext_resource type="Texture2D" uid="uid://c878s8m8eyd0l" path="res://sprites/flappy_bird.png" id="2_wm5q4"]
 [ext_resource type="AudioStream" uid="uid://cptxbgxsgegs7" path="res://sons/voar.mp3" id="3_3s4ha"]
 [ext_resource type="AudioStream" uid="uid://bj0ux8lxjovu0" path="res://sons/morte.mp3" id="4_vuc45"]
 [ext_resource type="AudioStream" uid="uid://emewa11kgbdg" path="res://sons/Pokemon opening.mp3" id="5_k0gr1"]
@@ -11,7 +11,7 @@ script = ExtResource("1_jy5p8")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.09, 0.09)
-texture = ExtResource("2_8qpje")
+texture = ExtResource("2_wm5q4")
 
 [node name="voar" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_3s4ha")

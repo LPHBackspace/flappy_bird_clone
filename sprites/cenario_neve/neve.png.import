@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/neve.png-573ea3f42d1b0ca050cea893884952c6.cte
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
