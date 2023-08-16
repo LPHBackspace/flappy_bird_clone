@@ -1,7 +1,8 @@
-res://cenas/bg_music.tscn
 res://cenas/tutorial.tscn
 res://cenas/main.tscn
 res://cenas/personagem.tscn
 res://cenas/obstaculo.tscn
 res://cenas/coletavel.tscn
 res://cenas/parallax_background.tscn
+res://cenas/bg_music.tscn
+res://cenas/menu.tscn

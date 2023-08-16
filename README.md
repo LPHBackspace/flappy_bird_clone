@@ -34,6 +34,9 @@
 
 <img src="https://github.com/LPHBackspace/flappy_bird_clone/blob/main/imagens_readme/godott.PNG">
 
+<h1>Implementação de features 🧾</h1>
+
+<p>Siga o turorial em: </p>
 
 <h1>Fontes das imagens 🖼️</h1>
 
