@@ -8,6 +8,7 @@
 2- Ao iniciar o projeto, clique na aba "Novo Projeto", e insira o caminho do repositório no caminho do projeto;
 <img src="./imagens_readme/criandoProjeto.png">
 
+
 <h1>CRIAÇÃO DA ESTRUTURA DE PASTAS🧾</h1>
 1- A estruturação do seu projeto deve seguir o seguinte exemplo:
 <img src="./imagens_readme/godot1.png">
@@ -21,6 +22,9 @@
 
 Nota:
 O script global é responsável por organizar variáveis que podem ser acessadas por qualquer parte do projeto.
+
+<h1>Cofigurações do projeto🧾</h1>
+
 <h1>CRIAÇÃO DA CENA MAIN 🧾</h1>
 1- Adicione uma nova cena 2d na pasta cenas, e nomeie ela como main.tscn
 
@@ -32,6 +36,13 @@ O script global é responsável por organizar variáveis que podem ser acessadas
 
 4- nomeie os Static Body2d como "teto" e "chao", então adicione dentro de cada um deles, um CollisionShape2d
 <img src="./imagens_readme/godot2.png">
+
+5- ao clicar em um dos CollisionShape2d criados, clique no dropdown "[vazio]" e selecione a opção "novo rectangle shape"
+
+<img src="./imagens_readme/collisionShape.png">
+
+6- repita o processo para o outro CollisionShape2d e posicione as hitboxes criadas da seguinte forma
+<img src="./imagens_readme/hitboxes.png">
 
 <h1>ADICIONANDO O PERSONAGEM A CENA MAIN 🧾</h1>
 
