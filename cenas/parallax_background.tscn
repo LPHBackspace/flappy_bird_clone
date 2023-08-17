@@ -35,7 +35,6 @@ func _process(_delta):
 script = ExtResource("1_vu76q")
 
 [node name="fase1" type="ParallaxBackground" parent="."]
-visible = false
 script = SubResource("GDScript_c1ryv")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="fase1"]

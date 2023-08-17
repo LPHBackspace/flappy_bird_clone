@@ -1,8 +1,8 @@
 2a60927148abd1d33b818b535e306557
-::res://::1692226246
+::res://::1692284006
 icon.svg::CompressedTexture2D::2083842785301941236::1677898271::1677898947::1::::<><>::
 README.md::TextFile::-1::1692215854::0::1::::<><>::
-TUTORIAL.md::TextFile::-1::1692226167::0::1::::<><>::
+TUTORIAL.md::TextFile::-1::1692227233::0::1::::<><>::
 ::res://cenas/::1692226475
 bg_music.tscn::PackedScene::7900530506185655704::1692203648::0::1::::<><>::res://scripts/bg_music.gd
 coletavel.tscn::PackedScene::7767817315273287733::1692203648::0::1::::<><>::res://scripts/coletavel.gd<>uid://c5clkv1efsupv<>uid://cpq1u13o2oxta
@@ -14,7 +14,7 @@ personagem.tscn::PackedScene::7607669854297991775::1692203648::0::1::::<><>::res
 tutorial.tscn::PackedScene::7586705615169562680::1692203647::0::1::::<><>::res://scripts/tutorial.gd<>uid://b1s1ey7v5jgbd<>uid://0cmg7c1wd1dx<>uid://clhmd6b5h4yuc<>uid://dqugvh7qga2p0
 ::res://font_style/::1677898947
 Symtext.ttf::FontFile::1759590850183238045::1677898271::1677898947::1::::<><>::
-::res://imagens_readme/::1692227108
+::res://imagens_readme/::1692227356
 addscript.png::CompressedTexture2D::5216359332515721170::1692206728::1692206823::1::::<><>::
 collisionShape.png::CompressedTexture2D::2349958481795268764::1692226823::1692226992::1::::<><>::
 criandoProjeto.png::CompressedTexture2D::4508684707578374178::1692204435::1692204836::1::::<><>::
